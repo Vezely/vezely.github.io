@@ -1,0 +1,41 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+	/* min-height: 80vh; */
+	color: var(--text);
+}
+
+.title {
+	font-size: 3em;
+	font-weight: 800;
+	margin-bottom: 5px;
+	color: var(--text);
+}
+.description {
+	padding: 5px;
+}
+
+.cardContainer {
+	max-width: 1500px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 10px;
+}
+
+@media (max-width: 768px) {
+	.cardContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	.container h1 {
+		font-size: 2.5em;
+	}
+	.container h2 {
+		font-size: 1.2em;
+	}
+}

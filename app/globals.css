@@ -1,0 +1,44 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+	/* background-color: #000; */
+	--CouleurFondHeader: #444445;
+	--CouleurFondBlanc: #ffffff;
+	--CouleurTexteBlanc: #f5f5f7;
+	--CouleurTexteBlanc1: #f0f1f6;
+	--CouleurTexteBlanc2: rgba(255, 255, 255, 0.8);
+	--CouleurTextBleu: #2997ff;
+	--CouleurIcon: #f8f9fa;
+	--CouleurMove: #845adf;
+	--CouleurBleuClair: #23b6e4;
+	--CouleurJauneClair: #f5b749;
+	--CouleurVertClair: #27bf94;
+
+	--CouleurFond2: #f3f3f3;
+	--CouleurStyleRouge: #ed395a;
+	--CouleurValider: #1ab052;
+	--CouleurBorder: #e9e9ea;
+
+	--CouleurTexteJaune: #f1c81a;
+	--CouleurTexteNoir: #000000;
+	--CouleurTexteNoir2: #171717;
+	--CouleurTexteNoirBlanc: #4e4e4e;
+	--CouleurButton: #1ab052;
+	--CouleurButtonBleu: #5c7be3;
+	--CouleurButtonBleuFonce: #325ad2;
+
+	--CouleurFondNav2: #1d1e2e;
+	--CouleurBC1: #1b1d20;
+	--CouleurBC2: #212529;
+	--CouleurBC_Footer: #0c0c0c;
+	background: #fbfbfd;
+	color: var(--CouleurTexteNoir2);
+}
